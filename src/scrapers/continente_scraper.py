@@ -5,7 +5,7 @@ from .base_scraper import BaseScraper
 class ContinenteScraper(BaseScraper):
     store_name = "Continente"
     # q=iogurte&pmin=0%2e01&srule=price-low-to-high&start=72&sz=36
-    base_url = "https://www.continente.pt/pesquisa/?q="
+    base_url = "https://www.continente.pt/pesquisa/?start=0&sz=4&q="
 
     def fetch(self, query: str) -> str:
         """Fetch the HTML content for a given search query."""
@@ -17,8 +17,9 @@ class ContinenteScraper(BaseScraper):
     def parse(self, raw_data: str) -> List[Dict]:
         """Parse the HTML content to extract product details."""
         soup = BeautifulSoup(raw_data, 'html.parser')
-        a = soup.find(string="produtos para")
-        print(a.parent)
+        self.save_html_to_file(soup)
+        a = soup.find("div", class_="row search-results-wrap")
+        print(a.get("data-gtm-results"))
         products = []
 
         # Find all product containers
@@ -46,3 +47,8 @@ class ContinenteScraper(BaseScraper):
                 })
 
         return products
+
+
+    def save_html_to_file(self, html_content: str, filename: str = "continente.html"):
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(html_content.prettify())
