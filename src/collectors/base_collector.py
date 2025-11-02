@@ -2,7 +2,12 @@ from abc import ABC, abstractmethod
 import json
 from typing import List, Dict
 
-class BaseScraper(ABC):
+class BaseCollector(ABC):
+
+    def __init__(self, store_name: str, base_url: str):
+        self.store_name = store_name
+        self.base_url = base_url
+
     @abstractmethod
     def fetch(self, query: str) -> str:
         """Fetch raw HTML or JSON"""

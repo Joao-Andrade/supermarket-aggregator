@@ -1,0 +1,12 @@
+[
+    "https://www.continente.pt/frescos/?start=0&srule=FRESH-Generico&pmin=0.01",
+    "https://www.continente.pt/laticinios-e-ovos/?start=0&srule=FOOD-Laticinios&pmin=0.01",
+    "https://www.continente.pt/congelados/?start=0&srule=FOOD-Congelados&pmin=0.01",
+    "https://www.continente.pt/mercearia/?start=0&srule=FOOD-Mercearia&pmin=0.01",
+    "https://www.continente.pt/bebidas-e-garrafeira/?start=0&srule=FOOD-Bebidas&pmin=0.01",
+    "https://www.continente.pt/bio-e-saudavel/?start=0&srule=FOOD-BIO&pmin=0.01",
+    "https://www.continente.pt/limpeza/?start=0&srule=FMCG-LL&pmin=0.01",
+    "https://www.continente.pt/beleza-e-higiene/?start=0&srule=FOOD-HB-Perfumes&pmin=0.01",
+    "https://www.continente.pt/bebe/ver-todos/?start=0&srule=Trading-categorias-destaques&pmin=0.01",
+    "https://www.continente.pt/animais/?start=0&srule=Sortig%20Rule%20Animais&pmin=0.01"
+]

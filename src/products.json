@@ -1,1 +1,218 @@
-[]
+[
+  {
+    "pid": "6661780",
+    "brand": null,
+    "name": "Porções de Salmão Fresco",
+    "price": "€2,49/un"
+  },
+  {
+    "pid": "4517263",
+    "brand": "Continente",
+    "name": "Picanha de Bovino América do Sul Inteira",
+    "price": "€19,99/kg"
+  },
+  {
+    "pid": "6872502",
+    "brand": "Continente",
+    "name": "Cabaz de Frutas da Época",
+    "price": "€18,99/un"
+  },
+  {
+    "pid": "7218060",
+    "brand": "Casa do Monte",
+    "name": "Presunto Fatiado 9 Meses de Cura",
+    "price": "€3,29/un"
+  },
+  {
+    "pid": "7371652",
+    "brand": null,
+    "name": "Pão de Abóbora e Nozes",
+    "price": "€0,49/un"
+  },
+  {
+    "pid": "7740959",
+    "brand": "Cozinha Continente",
+    "name": "Bacalhau à Gomes de Sá",
+    "price": "€3,89/un"
+  },
+  {
+    "pid": "7298016",
+    "brand": "Continente Seleção",
+    "name": "Rolo de Carne de Novilho com Queijo e Fiambre",
+    "price": "€12,59/kg"
+  },
+  {
+    "pid": "6364533",
+    "brand": "Riberalves",
+    "name": "Lombos de Bacalhau 12 Meses de Cura MSC Gourmet Ultracongelado",
+    "price": "€42,99/un"
+  },
+  {
+    "pid": "6419166",
+    "brand": "Campainha",
+    "name": "Queijo Flamengo Fatiado",
+    "price": "€5,69/un"
+  },
+  {
+    "pid": "7548675",
+    "brand": "Da Nossa Pastelaria",
+    "name": "Palmiers",
+    "price": "€3,49/un"
+  },
+  {
+    "pid": "7162145",
+    "brand": "Continente",
+    "name": "Espargos Verdes",
+    "price": "€2,99/un"
+  },
+  {
+    "pid": "7069674",
+    "brand": "Continente",
+    "name": "Peito de Frango",
+    "price": "€6,49/kg"
+  },
+  {
+    "pid": "2597619",
+    "brand": "Continente",
+    "name": "Banana",
+    "price": "€1,19/kg"
+  },
+  {
+    "pid": "2076759",
+    "brand": "Continente",
+    "name": "Curgete Verde",
+    "price": "€1,75/kg"
+  },
+  {
+    "pid": "2165762",
+    "brand": "Continente",
+    "name": "Clementina/Mandarina",
+    "price": "€2,49/kg"
+  },
+  {
+    "pid": "6950358",
+    "brand": "Continente",
+    "name": "Peito de Frango em Vácuo",
+    "price": "€6,49/kg"
+  },
+  {
+    "pid": "7618292",
+    "brand": "Continente",
+    "name": "Uva Branca sem Grainha",
+    "price": "€2,29/un"
+  },
+  {
+    "pid": "2885107",
+    "brand": "Continente",
+    "name": "Cenoura",
+    "price": "€1,05/un"
+  },
+  {
+    "pid": "2888438",
+    "brand": "Continente",
+    "name": "Queijo Flamengo Fatiado",
+    "price": "€4,19/un"
+  },
+  {
+    "pid": "2076764",
+    "brand": "Continente",
+    "name": "Couve Brócolo",
+    "price": "€2,49/kg"
+  },
+  {
+    "pid": "7068833",
+    "brand": "Continente",
+    "name": "Bifes de Frango",
+    "price": "€6,99/kg"
+  },
+  {
+    "pid": "2076480",
+    "brand": "Continente",
+    "name": "Banana da Madeira",
+    "price": "€2,99/kg"
+  },
+  {
+    "pid": "4863936",
+    "brand": "Limiano",
+    "name": "Queijo Flamengo sem Lactose Fatiado",
+    "price": "€4,99/un"
+  },
+  {
+    "pid": "7221212",
+    "brand": "Continente",
+    "name": "Laranja",
+    "price": "€1,39/kg"
+  },
+  {
+    "pid": "7430620",
+    "brand": "Continente",
+    "name": "Preparado de Carne Picada de Bovino",
+    "price": "€11,49/un"
+  },
+  {
+    "pid": "5454736",
+    "brand": "Continente",
+    "name": "Batata Vermelha",
+    "price": "€3,59/un"
+  },
+  {
+    "pid": "7102076",
+    "brand": "Continente",
+    "name": "Pera Rocha DOP Oeste",
+    "price": "€1,99/kg"
+  },
+  {
+    "pid": "7751334",
+    "brand": null,
+    "name": "Mirtilo",
+    "price": "€6,99/un"
+  },
+  {
+    "pid": "2076703",
+    "brand": "Continente",
+    "name": "Batata Doce",
+    "price": "€2,49/kg"
+  },
+  {
+    "pid": "7174691",
+    "brand": "Zespri",
+    "name": "Kiwi",
+    "price": "€4,49/kg"
+  },
+  {
+    "pid": "5125010",
+    "brand": "Terra Nostra",
+    "name": "Queijo Flamengo sem Lactose Fatiado",
+    "price": "€4,19/un"
+  },
+  {
+    "pid": "2076509",
+    "brand": "Continente",
+    "name": "Limão",
+    "price": "€2,49/kg"
+  },
+  {
+    "pid": "4863937",
+    "brand": "Limiano",
+    "name": "Queijo Flamengo sem Lactose Light Fatiado",
+    "price": "€5,09/un"
+  },
+  {
+    "pid": "4405983",
+    "brand": null,
+    "name": "Posta de Salmão Fresca",
+    "price": "€11,99/kg"
+  },
+  {
+    "pid": "7303767",
+    "brand": "Continente",
+    "name": "Maçã Pink Lady",
+    "price": "€2,99/kg"
+  },
+  {
+    "pid": "7371764",
+    "brand": null,
+    "name": "Bola de Lenha",
+    "price": "€0,49/un"
+  }
+]

@@ -1,0 +1,52 @@
+
+from bs4 import BeautifulSoup
+from typing import List, Dict
+from ..base_collector import BaseScraper
+class ContinenteScraper(BaseScraper):
+    store_name = "Continente"
+    base_url = "https://www.continente.pt/frescos/?start=0&sz=36&srule=FRESH-Generico&pmin=0.01"
+
+    def fetch(self, query: str) -> str:
+        """Fetch the HTML content for a given search query."""
+        url = f"{self.base_url}{query}"
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.text
+
+    def parse(self, raw_data: str) -> List[Dict]:
+        """Parse the HTML content to extract product details."""
+        soup = BeautifulSoup(raw_data, 'html.parser')
+        self.save_html_to_file(soup)
+        a = soup.find("div", class_="row search-results-wrap")
+        products = []
+
+        # Each product block
+        for product in soup.select("div.product[data-pid]"):
+            pid = product.get("data-pid")
+
+            # Brand
+            brand_tag = product.select_one(".pwc-tile--brand")
+            brand = brand_tag.get_text(strip=True) if brand_tag else None
+
+            # Name (description)
+            name_tag = product.select_one(".pwc-tile--description")
+            name = name_tag.get_text(strip=True) if name_tag else None
+
+            # Price
+            price_tag = product.select_one(".price .value, .sales .value")
+            price = price_tag.get_text(strip=True).replace("\xa0", " ") if price_tag else None
+
+            if name or brand or price:
+                products.append({
+                    "pid": pid,
+                    "brand": brand,
+                    "name": name,
+                    "price": price
+                })
+
+        return products
+
+
+    def save_html_to_file(self, html_content: str, filename: str = "continente.html"):
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write(html_content.prettify())

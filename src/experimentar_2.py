@@ -1,35 +1,55 @@
-from bs4 import BeautifulSoup
+import requests
+import pandas as pd
+import math
 
-# Load HTML
-with open("continente.html", "r", encoding="utf-8") as f:
-    soup = BeautifulSoup(f, "html.parser")
+# Configuração
+CATEGORIA = "frescos"
+BASE_URL = "https://www.continente.pt/on/demandware.store/Sites-continente-Site/default/SearchServices-GetProducts"
 
-products = []
+# Primeira chamada
+params = {
+    "cgid": CATEGORIA,
+    "start": 0,
+    "sz": 36,
+    "srule": "FRESH-Generico",
+}
 
-# Each product block
-for product in soup.select("div.product[data-pid]"):
-    pid = product.get("data-pid")
+r = requests.get(BASE_URL, params=params)
+r.raise_for_status()
+data = r.json()
 
-    # Brand
-    brand_tag = product.select_one(".pwc-tile--brand")
-    brand = brand_tag.get_text(strip=True) if brand_tag else None
+# Total de produtos
+total = int(data["total"])
+page_size = len(data["hits"])
+num_pages = math.ceil(total / page_size)
 
-    # Name (description)
-    name_tag = product.select_one(".pwc-tile--description")
-    name = name_tag.get_text(strip=True) if name_tag else None
+print(f"Total: {total} produtos ({num_pages} páginas)")
 
-    # Price
-    price_tag = product.select_one(".price .value, .sales .value")
-    price = price_tag.get_text(strip=True).replace("\xa0", " ") if price_tag else None
-
-    if name or brand or price:
-        products.append({
-            "pid": pid,
-            "brand": brand,
-            "name": name,
-            "price": price
+def extrair(page_json):
+    produtos = []
+    for h in page_json["hits"]:
+        p = h["product"]
+        produtos.append({
+            "id": p.get("id"),
+            "nome": p.get("productName"),
+            "marca": p.get("brand"),
+            "preco_unidade": p.get("price", {}).get("sales", {}).get("formatted"),
+            "preco_quilo": p.get("price", {}).get("unit", {}).get("formatted"),
+            "promocao": ", ".join(p.get("badges", [])) if p.get("badges") else None,
+            "url": "https://www.continente.pt" + p.get("link", ""),
+            "imagem": (p.get("images", {}).get("default", [{}])[0]).get("url"),
         })
+    return produtos
 
-# Print results
-for p in products:
-    print(f"{p['pid']} | {p['brand']} | {p['name']} | {p['price']}")
+# Recolher todas as páginas
+todos = []
+for start in range(0, total, page_size):
+    params["start"] = start
+    r = requests.get(BASE_URL, params=params)
+    r.raise_for_status()
+    todos += extrair(r.json())
+
+# Exportar para CSV
+df = pd.DataFrame(todos)
+df.to_csv("frescos_continente.csv", index=False)
+print(f"{len(df)} produtos guardados em frescos_continente.csv")
