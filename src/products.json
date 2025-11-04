@@ -1,218 +1,290 @@
 [
   {
-    "pid": "6661780",
-    "brand": null,
-    "name": "Porções de Salmão Fresco",
-    "price": "€2,49/un"
-  },
-  {
-    "pid": "4517263",
-    "brand": "Continente",
-    "name": "Picanha de Bovino América do Sul Inteira",
-    "price": "€19,99/kg"
-  },
-  {
-    "pid": "6872502",
-    "brand": "Continente",
-    "name": "Cabaz de Frutas da Época",
-    "price": "€18,99/un"
-  },
-  {
-    "pid": "7218060",
-    "brand": "Casa do Monte",
-    "name": "Presunto Fatiado 9 Meses de Cura",
-    "price": "€3,29/un"
-  },
-  {
-    "pid": "7371652",
-    "brand": null,
-    "name": "Pão de Abóbora e Nozes",
-    "price": "€0,49/un"
-  },
-  {
-    "pid": "7740959",
-    "brand": "Cozinha Continente",
-    "name": "Bacalhau à Gomes de Sá",
-    "price": "€3,89/un"
-  },
-  {
-    "pid": "7298016",
-    "brand": "Continente Seleção",
-    "name": "Rolo de Carne de Novilho com Queijo e Fiambre",
-    "price": "€12,59/kg"
-  },
-  {
-    "pid": "6364533",
-    "brand": "Riberalves",
-    "name": "Lombos de Bacalhau 12 Meses de Cura MSC Gourmet Ultracongelado",
-    "price": "€42,99/un"
-  },
-  {
-    "pid": "6419166",
-    "brand": "Campainha",
-    "name": "Queijo Flamengo Fatiado",
-    "price": "€5,69/un"
-  },
-  {
-    "pid": "7548675",
-    "brand": "Da Nossa Pastelaria",
-    "name": "Palmiers",
-    "price": "€3,49/un"
-  },
-  {
-    "pid": "7162145",
-    "brand": "Continente",
-    "name": "Espargos Verdes",
-    "price": "€2,99/un"
-  },
-  {
-    "pid": "7069674",
-    "brand": "Continente",
-    "name": "Peito de Frango",
-    "price": "€6,49/kg"
-  },
-  {
-    "pid": "2597619",
-    "brand": "Continente",
     "name": "Banana",
-    "price": "€1,19/kg"
+    "brand": "Continente",
+    "unit_price": "€1,29",
+    "kg_price": "€0,26 /un",
+    "url": "https://www.continente.pt/produto/banana-continente-2597619.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwcd554331/images/col/259/2597619-frente.jpg?sw=280&sh=280"
   },
   {
-    "pid": "2076759",
-    "brand": "Continente",
     "name": "Curgete Verde",
-    "price": "€1,75/kg"
+    "brand": "Continente",
+    "unit_price": "€1,49",
+    "kg_price": "€0,75 /un",
+    "url": "https://www.continente.pt/produto/curgete-verde-continente-2076759.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw501f0905/images/col/207/2076759-frente.jpg?sw=280&sh=280"
   },
   {
-    "pid": "2165762",
-    "brand": "Continente",
-    "name": "Clementina/Mandarina",
-    "price": "€2,49/kg"
+    "name": "Leite UHT Meio Gordo",
+    "brand": "Mimosa",
+    "unit_price": "€1,00",
+    "kg_price": "€1,00 /lt",
+    "url": "https://www.continente.pt/produto/leite-uht-meio-gordo-mimosa-2210946.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw53586675/images/col/221/2210946-frente.jpg?sw=280&sh=280"
   },
   {
-    "pid": "6950358",
-    "brand": "Continente",
-    "name": "Peito de Frango em Vácuo",
-    "price": "€6,49/kg"
-  },
-  {
-    "pid": "7618292",
-    "brand": "Continente",
-    "name": "Uva Branca sem Grainha",
-    "price": "€2,29/un"
-  },
-  {
-    "pid": "2885107",
-    "brand": "Continente",
     "name": "Cenoura",
-    "price": "€1,05/un"
-  },
-  {
-    "pid": "2888438",
     "brand": "Continente",
-    "name": "Queijo Flamengo Fatiado",
-    "price": "€4,19/un"
+    "unit_price": "€1,05",
+    "kg_price": "€1,05 /kg",
+    "url": "https://www.continente.pt/produto/cenoura-continente-2885107.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwaa0ae3ae/images/col/288/2885107-frente.jpg?sw=280&sh=280"
   },
   {
-    "pid": "2076764",
+    "name": "Clementina/Mandarina",
     "brand": "Continente",
-    "name": "Couve Brócolo",
-    "price": "€2,49/kg"
+    "unit_price": "€1,99",
+    "kg_price": "€0,30 /un",
+    "url": "https://www.continente.pt/produto/clementina-mandarina-continente-2165762.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwcc44ffc5/images/col/216/2165762-frente.jpg?sw=280&sh=280"
   },
   {
-    "pid": "7068833",
+    "name": "Leite UHT Meio Gordo",
     "brand": "Continente",
-    "name": "Bifes de Frango",
-    "price": "€6,99/kg"
+    "unit_price": "€0,86",
+    "kg_price": "€0,86 /lt",
+    "url": "https://www.continente.pt/produto/leite-uht-meio-gordo-continente-6879912.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw9a1f7d66/images/col/687/6879912-frente.jpg?sw=280&sh=280"
   },
   {
-    "pid": "2076480",
-    "brand": "Continente",
-    "name": "Banana da Madeira",
-    "price": "€2,99/kg"
-  },
-  {
-    "pid": "4863936",
-    "brand": "Limiano",
-    "name": "Queijo Flamengo sem Lactose Fatiado",
-    "price": "€4,99/un"
-  },
-  {
-    "pid": "7221212",
-    "brand": "Continente",
-    "name": "Laranja",
-    "price": "€1,39/kg"
-  },
-  {
-    "pid": "7430620",
-    "brand": "Continente",
-    "name": "Preparado de Carne Picada de Bovino",
-    "price": "€11,49/un"
-  },
-  {
-    "pid": "5454736",
-    "brand": "Continente",
-    "name": "Batata Vermelha",
-    "price": "€3,59/un"
-  },
-  {
-    "pid": "7102076",
-    "brand": "Continente",
-    "name": "Pera Rocha DOP Oeste",
-    "price": "€1,99/kg"
-  },
-  {
-    "pid": "7751334",
-    "brand": null,
-    "name": "Mirtilo",
-    "price": "€6,99/un"
-  },
-  {
-    "pid": "2076703",
-    "brand": "Continente",
-    "name": "Batata Doce",
-    "price": "€2,49/kg"
-  },
-  {
-    "pid": "7174691",
-    "brand": "Zespri",
-    "name": "Kiwi",
-    "price": "€4,49/kg"
-  },
-  {
-    "pid": "5125010",
+    "name": "Leite Meio Gordo Pastagem",
     "brand": "Terra Nostra",
-    "name": "Queijo Flamengo sem Lactose Fatiado",
-    "price": "€4,19/un"
+    "unit_price": "€0,89",
+    "kg_price": "€0,89 /lt",
+    "url": "https://www.continente.pt/produto/leite-meio-gordo-pastagem-terra-nostra-5816596.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw419dfa6e/images/col/581/5816596-frente.jpg?sw=280&sh=280"
   },
   {
-    "pid": "2076509",
+    "name": "Água sem Gás Garrafão",
     "brand": "Continente",
+    "unit_price": "€0,84",
+    "kg_price": "€0,14 /lt",
+    "url": "https://www.continente.pt/produto/agua-sem-gas-garrafao-continente-4950225.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw80b05028/images/col/495/4950225-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Uva Branca sem Grainha",
+    "brand": "Continente",
+    "unit_price": "€2,29",
+    "kg_price": "€4,58 /kg",
+    "url": "https://www.continente.pt/produto/uva-branca-sem-grainha-continente-7618292.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw5c3ca6e6/images/col/761/7618292-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Leite UHT Meio Gordo sem Lactose",
+    "brand": "Continente",
+    "unit_price": "€1,08",
+    "kg_price": "€1,08 /lt",
+    "url": "https://www.continente.pt/produto/leite-uht-meio-gordo-sem-lactose-continente-7442172.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwf8427972/images/col/744/7442172-frente.png?sw=280&sh=280"
+  },
+  {
+    "name": "Massa Esparguete Pack Poupança",
+    "brand": "Continente",
+    "unit_price": "€0,99",
+    "kg_price": "€0,99 /kg",
+    "url": "https://www.continente.pt/produto/massa-esparguete-pack-poupanca-continente-5253941.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwc92291fd/images/col/525/5253941-cima.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Açúcar Branco",
+    "brand": "Continente",
+    "unit_price": "€0,99",
+    "kg_price": "€0,99 /kg",
+    "url": "https://www.continente.pt/produto/acucar-branco-continente-5038799.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw52fd4a99/images/col/503/5038799-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Atum ao Natural",
+    "brand": "Tritão",
+    "unit_price": "€0,79",
+    "kg_price": "€10,26 /kg",
+    "url": "https://www.continente.pt/produto/atum-ao-natural-tritao-7314143.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwa5cfccd2/images/col/731/7314143-hero.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Couve Brócolo",
+    "brand": "Continente",
+    "unit_price": "€2,49",
+    "kg_price": "€1,49 /un",
+    "url": "https://www.continente.pt/produto/couve-brocolo-continente-2076764.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwb527b076/images/col/207/2076764-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Água sem Gás Garrafão",
+    "brand": "Luso",
+    "unit_price": "€1,99",
+    "kg_price": "€0,28 /lt",
+    "url": "https://www.continente.pt/produto/agua-sem-gas-garrafao-luso-5096262.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw884d6366/images/col/509/5096262-hero.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Leite UHT Magro sem Lactose",
+    "brand": "Continente",
+    "unit_price": "€1,08",
+    "kg_price": "€1,08 /lt",
+    "url": "https://www.continente.pt/produto/leite-uht-magro-sem-lactose-continente-7631008.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw860889d4/images/col/763/7631008-frente.png?sw=280&sh=280"
+  },
+  {
+    "name": "Ovos de Solo Classe L",
+    "brand": "Continente",
+    "unit_price": "€3,29",
+    "kg_price": "€3,29 /doz",
+    "url": "https://www.continente.pt/produto/ovos-de-solo-classe-l-continente-7066777.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwbcb7d138/images/col/706/7066777-esquerdo.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Ovos Classe M",
+    "brand": "Dona Gema",
+    "unit_price": "€5,99",
+    "kg_price": "€3,00 /doz",
+    "url": "https://www.continente.pt/produto/ovos-classe-m-dona-gema-7630191.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw7f8c347b/images/col/763/7630191-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Água sem Gás Garrafão",
+    "brand": "Caldas de Penacova",
+    "unit_price": "€1,08",
+    "kg_price": "€0,22 /lt",
+    "url": "https://www.continente.pt/produto/agua-sem-gas-garrafao-caldas-de-penacova-4028645.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw61e1040f/images/col/402/4028645-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Arroz Basmati",
+    "brand": "Continente",
+    "unit_price": "€1,99",
+    "kg_price": "€1,99 /kg",
+    "url": "https://www.continente.pt/produto/arroz-basmati-continente-4949515.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw3e2924b4/images/col/494/4949515-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Laranja",
+    "brand": "Continente",
+    "unit_price": "€1,79",
+    "kg_price": "€0,54 /un",
+    "url": "https://www.continente.pt/produto/laranja-continente-7221212.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw8acc462d/images/col/722/7221212-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Leite UHT Meio Gordo sem Lactose",
+    "brand": "Mimosa",
+    "unit_price": "€1,04",
+    "kg_price": "€1,04 /lt",
+    "url": "https://www.continente.pt/produto/leite-uht-meio-gordo-sem-lactose-mimosa-4064882.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwa6ac21f3/images/col/406/4064882-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Banana da Madeira",
+    "brand": "Continente",
+    "unit_price": "€2,99",
+    "kg_price": "€3,74 /un",
+    "url": "https://www.continente.pt/produto/banana-da-madeira-continente-2076480.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwd4c8df36/images/col/207/2076480-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Cenoura",
+    "brand": "Continente",
+    "unit_price": "€0,99",
+    "kg_price": "€0,15 /un",
+    "url": "https://www.continente.pt/produto/cenoura-continente-5063155.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwa19f7756/images/col/506/5063155-esquerdo-fatiado.png?sw=280&sh=280"
+  },
+  {
+    "name": "Água sem Gás Alcalina pH 9,5 Garrafão",
+    "brand": "Monchique",
+    "unit_price": "€1,49",
+    "kg_price": "€0,30 /lt",
+    "url": "https://www.continente.pt/produto/agua-sem-gas-alcalina-ph-95-garrafao-monchique-2244361.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw5682fc7d/images/col/224/2244361-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Guardanapos 2 Folhas Pack Poupança",
+    "brand": "Continente",
+    "unit_price": "€2,39",
+    "kg_price": "€0,01 /un",
+    "url": "https://www.continente.pt/produto/guardanapos-2-folhas-pack-poupanca-continente-7374738.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw3624c7b4/images/col/737/7374738-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Leite UHT Magro",
+    "brand": "Continente Equilíbrio",
+    "unit_price": "€0,86",
+    "kg_price": "€0,86 /lt",
+    "url": "https://www.continente.pt/produto/leite-uht-magro-continente-equilibrio-6879889.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw6a5d60b5/images/col/687/6879889-hero.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Pera Rocha DOP Oeste",
+    "brand": "Continente",
+    "unit_price": "€2,49",
+    "kg_price": "€0,42 /un",
+    "url": "https://www.continente.pt/produto/pera-rocha-dop-oeste-continente-7102076.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwe16d9b17/images/col/710/7102076-frente.jpg?sw=280&sh=280"
+  },
+  {
     "name": "Limão",
-    "price": "€2,49/kg"
-  },
-  {
-    "pid": "4863937",
-    "brand": "Limiano",
-    "name": "Queijo Flamengo sem Lactose Light Fatiado",
-    "price": "€5,09/un"
-  },
-  {
-    "pid": "4405983",
-    "brand": null,
-    "name": "Posta de Salmão Fresca",
-    "price": "€11,99/kg"
-  },
-  {
-    "pid": "7303767",
     "brand": "Continente",
-    "name": "Maçã Pink Lady",
-    "price": "€2,99/kg"
+    "unit_price": "€2,49",
+    "kg_price": "€0,50 /un",
+    "url": "https://www.continente.pt/produto/limao-continente-2076509.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw134af6b4/images/col/207/2076509-frente.jpg?sw=280&sh=280"
   },
   {
-    "pid": "7371764",
-    "brand": null,
-    "name": "Bola de Lenha",
-    "price": "€0,49/un"
+    "name": "Atum Posta ao Natural",
+    "brand": "Continente Equilíbrio",
+    "unit_price": "€0,89",
+    "kg_price": "€10,47 /kg",
+    "url": "https://www.continente.pt/produto/atum-posta-ao-natural-continente-equilibrio-3697795.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwc2f56f11/images/col/369/3697795-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Rolo de Cozinha Compacto",
+    "brand": "Continente",
+    "unit_price": "€2,09",
+    "kg_price": "€0,52 /un",
+    "url": "https://www.continente.pt/produto/rolo-de-cozinha-compacto-continente-7061584.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwb396aa6e/images/col/706/7061584-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Espinafre Baby Leaf",
+    "brand": "Continente",
+    "unit_price": "€1,19",
+    "kg_price": "€7,00 /kg",
+    "url": "https://www.continente.pt/produto/espinafre-baby-leaf-continente-7171318.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw37a7df2c/images/col/717/7171318-frente.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Queijo Flamengo Fatiado",
+    "brand": "Continente",
+    "unit_price": "€4,19",
+    "kg_price": "€8,38 /kg",
+    "url": "https://www.continente.pt/produto/queijo-flamengo-fatiado-continente-2888438.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw5375a1e4/images/col/288/2888438-frente-embalagem-acessorio.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Manteiga com Sal",
+    "brand": "Mimosa",
+    "unit_price": "€2,19",
+    "kg_price": "€8,76 /kg",
+    "url": "https://www.continente.pt/produto/manteiga-com-sal-mimosa-2211084.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwfadba723/images/col/221/2211084-cima-frente.png?sw=280&sh=280"
+  },
+  {
+    "name": "Natas UHT para Culinária",
+    "brand": "Continente",
+    "unit_price": "€0,79",
+    "kg_price": "€3,95 /lt",
+    "url": "https://www.continente.pt/produto/natas-uht-para-culinaria-continente-6896860.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw0feadd40/images/col/689/6896860-hero.jpg?sw=280&sh=280"
+  },
+  {
+    "name": "Pepino",
+    "brand": "Continente",
+    "unit_price": "€1,49",
+    "kg_price": "€0,60 /un",
+    "url": "https://www.continente.pt/produto/pepino-continente-2076815.html",
+    "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwb9d963d2/images/col/207/2076815-cima.png?sw=280&sh=280"
   }
 ]

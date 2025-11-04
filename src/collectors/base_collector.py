@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
-import json
 from typing import List, Dict
+from .utils import file as file_utils
 
 class BaseCollector(ABC):
 
@@ -9,8 +9,13 @@ class BaseCollector(ABC):
         self.base_url = base_url
 
     @abstractmethod
-    def fetch(self, query: str) -> str:
+    def fetch(self, query: str = None) -> str:
         """Fetch raw HTML or JSON"""
+        pass
+
+    @abstractmethod
+    def fetch_all_categories(self) -> str:
+        """Fetch raw HTML or JSON from every category"""
         pass
 
     @abstractmethod
@@ -18,13 +23,6 @@ class BaseCollector(ABC):
         """Parse HTML/JSON to product list"""
         pass
 
-    def get_products(self, query: str) -> List[Dict]:
-        """Run fetch + parse in one call"""
-        raw_data = self.fetch(query)
-        return self.parse(raw_data)
-
-    def save_to_file(self, products: List[Dict], filename: str = "products.json"):
+    def save_products_to_file(self, products: List[Dict], filename: str = "products.json", append: bool = False):
         """Save the list of products to a JSON file."""
-        with open(filename, "w", encoding="utf-8") as f:
-            json.dump(products, f, ensure_ascii=False, indent=2)
-        print(f"Saved {len(products)} products to {filename}")
+        file_utils.save_products_to_file(products, filename, append=append)
