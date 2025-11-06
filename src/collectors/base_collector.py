@@ -9,17 +9,41 @@ class BaseCollector(ABC):
         self.base_url = base_url
 
     @abstractmethod
-    def fetch(self, query: str = None) -> str:
-        """Fetch raw HTML or JSON"""
+    def fetch_all_categories(self, combine_categories: bool = False) -> List[Dict]:
+        """Fetch raw HTML or JSON from every category
+        Example:
+        [
+            {"category1": ["<html></html>"]}
+        ]
+        If combine_categories:
+        [
+        "<html></html>"
+        ]
+        """
         pass
 
     @abstractmethod
-    def fetch_all_categories(self) -> str:
-        """Fetch raw HTML or JSON from every category"""
+    def fetch_specific_category(self, category_index: int = 0) -> List[str]:
+        """Fetch raw HTML or JSON from a specific category index from categories.json
+        Example:
+        [
+            "<html></html>"
+        ]
+        """
         pass
 
     @abstractmethod
-    def parse(self, raw_data: str) -> List[Dict]:
+    def fetch(self, query: str = "", endpoint: str = "pesquisa?q=") -> List[str]:
+        """Fetch raw HTML or JSON
+        Example:
+        [
+            "<html></html>"
+        ]
+        """
+        pass
+
+    @abstractmethod
+    def parse(self, raw_data: List[str]) -> List[Dict]:
         """Parse HTML/JSON to product list"""
         pass
 

@@ -22,7 +22,9 @@ def save_products_to_file(products: List[Dict], filename: str = "products.json",
         json.dump(output_products, f, ensure_ascii=False, indent=2)
     print(f"Saved {len(products)} products to {filename}")
 
-def load_json_file(path):
+def load_json_file(file_path: str) -> Dict:
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    path = os.path.join(current_dir, file_path)
     """Load and parse JSON from a local file."""
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
