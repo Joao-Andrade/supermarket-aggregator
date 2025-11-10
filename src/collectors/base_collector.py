@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List, Dict
 from utils import file as file_utils
+from outputs import json as json_output
 
 class BaseCollector(ABC):
 
@@ -49,4 +50,4 @@ class BaseCollector(ABC):
 
     def save_products_to_file(self, products: List[Dict], filename: str = "products.json", append: bool = False):
         """Save the list of products to a JSON file."""
-        file_utils.save_products_to_file(products, filename, append=append)
+        json_output.save_to_file(products, filename, append=append)

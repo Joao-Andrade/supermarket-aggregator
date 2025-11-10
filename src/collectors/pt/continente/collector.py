@@ -69,7 +69,6 @@ class ContinenteCollector(BaseCollector):
                 next_page_url = show_more_container['data-url']
             else:
                 next_page_url = None
-            break
         return pages
 
     def parse(self, raw_data: List[str]) -> List[Dict]:
@@ -102,8 +101,8 @@ class ContinenteCollector(BaseCollector):
                 price_element = product_tile.select_one(".pwc-tile--price-primary .ct-price-formatted")
                 bulk_price_element = product_tile.select_one(".pwc-tile--price-secondary")
                 price_text = float(price_element.text.strip()[1:].replace(',','.')) if price_element else -1
-                bulk_price = bulk_price_element.text.strip().split('/') if bulk_price_element else "-1/kg"
-                bulk_price_text = float(bulk_price[0][1:].strip().replace(',','.').replace(',','.'))
+                bulk_price = bulk_price_element.text.strip().split('/') if bulk_price_element else ["$-1.0", "kg"]
+                bulk_price_text = float(bulk_price[0][1:].strip().replace(',','', bulk_price[0].count(',')-1).replace(',','.'))
                 price_unit = bulk_price[1].strip() if bulk_price else ''
 
                 # Extract product and image URLs
