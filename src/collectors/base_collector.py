@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import List, Dict
-from .utils import file as file_utils
+from utils import file as file_utils
 
 class BaseCollector(ABC):
 

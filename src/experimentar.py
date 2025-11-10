@@ -1,14 +1,10 @@
-from collectors.continente.collector import ContinenteCollector
+from collectors.pt.continente.collector import ContinenteCollector
 
 def test_continente_scraper():
     collector = ContinenteCollector()
-    products_html = collector.fetch_all_categories(combine_categories=True)
-    print(products_html)
+    products_html = collector.fetch_specific_category(category_index=0)
     products = collector.parse(products_html)
     collector.save_products_to_file(products)
-    #assert isinstance(products, list)
-    #assert all("name" in p and "unit_price" in p for p in products)
-    print("Scraper test passed!")
 
 if __name__ == "__main__":
     test_continente_scraper()

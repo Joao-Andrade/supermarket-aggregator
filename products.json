@@ -1,0 +1,650 @@
+[
+  {
+    "uid": "45deda1590454acfecccc700af2e54816f2d3b400ac8d82fcb8961c6e565e50d",
+    "name": "Porções de Salmão Fresco",
+    "normalized_name": "pores-de-salmo-fresco",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/porcoes-de-salmao-fresco-6661780.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw17370d84/images/col/666/6661780-cima-pedra.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 2.99,
+      "bulk_price": 19.93,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "2893d78369f8caea334c073e61a6fb23da38d75d6a3d0fa4f8ecb33d6f2c275f",
+    "name": "Picanha de Bovino América do Sul Inteira",
+    "normalized_name": "picanha-de-bovino-amrica-do-sul-inteira",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/picanha-de-bovino-america-do-sul-inteira-continente-4517263.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwc233a8e6/images/col/451/4517263-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 19.99,
+      "bulk_price": 29.99,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "4781bd040b0a9f1e244bd597df962ab8382b78df5365fc9ef50f79a52c51c9a9",
+    "name": "Cabaz de Frutas da Época",
+    "normalized_name": "cabaz-de-frutas-da-poca",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/cabaz-de-frutas-da-epoca-continente-6872502.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw5033a17b/images/col/687/6872502-cima.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 18.99,
+      "bulk_price": 3.8,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "844a61aedf904ba3e1e777cf65bb81133bbf8f0dbe2a0d3a56d3ffdb7f23874b",
+    "name": "Presunto Fatiado 9 Meses de Cura",
+    "normalized_name": "presunto-fatiado-9-meses-de-cura",
+    "brand": "Casa do Monte",
+    "normalized_brand": "casa-do-monte",
+    "price": {
+      "url": "https://www.continente.pt/produto/presunto-fatiado-9-meses-de-cura-casa-do-monte-7218060.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw22e315ad/images/col/721/7218060-frente-fatia.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 3.89,
+      "bulk_price": 25.93,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "3e6d620feb5e268c6e66346d9cacfe2ff17f7297779cfb277f654aa7d03e02ab",
+    "name": "Pão de Abóbora e Nozes",
+    "normalized_name": "po-de-abbora-e-nozes",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/pao-de-abobora-e-nozes-7371652.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw885e640d/images/col/737/7371652-cima-acessorio.png?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 0.49,
+      "bulk_price": 4.9,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "203d89dadbcab9f5e2d48c1762bfeaa2ee273bdd64a1606b03ea7b740a7ea37d",
+    "name": "Bacalhau à Gomes de Sá",
+    "normalized_name": "bacalhau--gomes-de-s",
+    "brand": "Cozinha Continente",
+    "normalized_brand": "cozinha-continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/bacalhau-a-gomes-de-sa-cozinha-continente-7740959.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw1a92a628/images/col/774/7740959-topshot.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 3.89,
+      "bulk_price": 12.97,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "76106fdb9324ccab543c9066172efe065e70bf0810fa6b19bd5386e25b332098",
+    "name": "Rolo de Carne de Novilho com Queijo e Fiambre",
+    "normalized_name": "rolo-de-carne-de-novilho-com-queijo-e-fiambre",
+    "brand": "Continente Seleção",
+    "normalized_brand": "continente-seleo",
+    "price": {
+      "url": "https://www.continente.pt/produto/rolo-de-carne-de-novilho-com-queijo-e-fiambre-continente-selecao-7298016.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw0011ed9d/images/col/729/7298016-topshot.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 12.59,
+      "bulk_price": 13.85,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "6de80050b33e0622a5037f427ca77f92d23c4a8229b8d8ed566d00bb473241a8",
+    "name": "Lombos de Bacalhau 12 Meses de Cura MSC Gourmet Ultracongelado",
+    "normalized_name": "lombos-de-bacalhau-12-meses-de-cura-msc-gourmet-ultracongelado",
+    "brand": "Riberalves",
+    "normalized_brand": "riberalves",
+    "price": {
+      "url": "https://www.continente.pt/produto/lombos-de-bacalhau-12-meses-de-cura-msc-gourmet-ultracongelado-riberalves-6364533.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw1ae59e77/images/col/636/6364533-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 40.99,
+      "bulk_price": 40.99,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "3365d96a54299184d3a8878764e7e5eff797a51165661e3193a7771bd90a1afe",
+    "name": "Queijo Flamengo Fatiado",
+    "normalized_name": "queijo-flamengo-fatiado",
+    "brand": "Campainha",
+    "normalized_brand": "campainha",
+    "price": {
+      "url": "https://www.continente.pt/produto/queijo-flamengo-fatiado-campainha-6419166.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwb86254bc/images/col/641/6419166-topshot.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 8.79,
+      "bulk_price": 10.99,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "d6a35fb0924b1dd58b6c7dd37329a3b38dd4380d14d054f125d05d13305acade",
+    "name": "Palmiers",
+    "normalized_name": "palmiers",
+    "brand": "Da Nossa Pastelaria",
+    "normalized_brand": "da-nossa-pastelaria",
+    "price": {
+      "url": "https://www.continente.pt/produto/palmiers-da-nossa-pastelaria-7548675.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw88cd1089/images/col/754/7548675-direito.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 3.49,
+      "bulk_price": 4.85,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "974bf3e25675babdbd32721cb8a7edbca9a55d274f8dec77edeaabcca6e56af7",
+    "name": "Espargos Verdes",
+    "normalized_name": "espargos-verdes",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/espargos-verdes-continente-7162145.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw297077b1/images/col/716/7162145-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 2.99,
+      "bulk_price": 11.96,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "14e50cd62d911c9fbdd8f3943fc5cbf653526c49175122b0a25e78d36b1a724f",
+    "name": "Peito de Frango",
+    "normalized_name": "peito-de-frango",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/peito-de-frango-continente-7069674.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwfcfa7bdd/images/col/706/7069674-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 6.49,
+      "bulk_price": 7.79,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "a9d49b9145548b7380c4314d9f390fc57681f913efdca266ef2270587354e0a9",
+    "name": "Banana",
+    "normalized_name": "banana",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/banana-continente-2597619.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwcd554331/images/col/259/2597619-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 1.29,
+      "bulk_price": 0.26,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "abb7c9b5eb09acd6016e0b10f335de3c0b0b2a3e683bb94d8b6bcdc677444af6",
+    "name": "Curgete Verde",
+    "normalized_name": "curgete-verde",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/curgete-verde-continente-2076759.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw501f0905/images/col/207/2076759-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 1.49,
+      "bulk_price": 0.75,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "bea6b30fcb88978c5557491ca51dbdcae9952fb7375266cb01264c5b80f5da82",
+    "name": "Clementina/Mandarina",
+    "normalized_name": "clementinamandarina",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/clementina-mandarina-continente-2165762.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwcc44ffc5/images/col/216/2165762-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 1.99,
+      "bulk_price": 0.3,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "5daa1f4bc0c1371990522312d5c76cca0e296855aab3b5b9adbbb689350fb1a6",
+    "name": "Uva Branca sem Grainha",
+    "normalized_name": "uva-branca-sem-grainha",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/uva-branca-sem-grainha-continente-7618292.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw5c3ca6e6/images/col/761/7618292-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 2.29,
+      "bulk_price": 4.58,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "89619f3312e239653110b6a85afd84c519cf7353f2ddc635419001da75543044",
+    "name": "Peito de Frango em Vácuo",
+    "normalized_name": "peito-de-frango-em-vcuo",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/peito-de-frango-em-vacuo-continente-6950358.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwd43d2a97/images/col/695/6950358-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 6.49,
+      "bulk_price": 14.28,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "4039dcbe73a394b8ce68a3fc6da50fb90582aee97ce4fc2fac31053f884f47ec",
+    "name": "Cenoura",
+    "normalized_name": "cenoura",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/cenoura-continente-2885107.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwaa0ae3ae/images/col/288/2885107-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 1.05,
+      "bulk_price": 1.05,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "f4969cd69d67df6e960b150da69be5fdd588c3022b576098faa85d96fe2cdd1a",
+    "name": "Queijo Flamengo Fatiado",
+    "normalized_name": "queijo-flamengo-fatiado",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/queijo-flamengo-fatiado-continente-2888438.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw5375a1e4/images/col/288/2888438-frente-embalagem-acessorio.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 4.19,
+      "bulk_price": 8.38,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "9b8ff2a160ba40e11b34d7763b4808ed19b0c3e041cd654a8abc8a95c92dcba9",
+    "name": "Couve Brócolo",
+    "normalized_name": "couve-brcolo",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/couve-brocolo-continente-2076764.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwb527b076/images/col/207/2076764-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 2.49,
+      "bulk_price": 1.49,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "ed376afb747c613516bb11ff1a33a1c3a068dfe2ed406a37496778b74e3e9f72",
+    "name": "Banana da Madeira",
+    "normalized_name": "banana-da-madeira",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/banana-da-madeira-continente-2076480.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwd4c8df36/images/col/207/2076480-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 2.99,
+      "bulk_price": 3.74,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "3db01ed6a8d052480fb50505632018d3d78658604affabd71f5be79923537c37",
+    "name": "Laranja",
+    "normalized_name": "laranja",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/laranja-continente-7221212.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw8acc462d/images/col/722/7221212-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 1.79,
+      "bulk_price": 0.54,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "4f9344744cf91cc9217aae83adc855e8ee8d428046aff904d910b019548705fb",
+    "name": "Bifes de Frango",
+    "normalized_name": "bifes-de-frango",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/bifes-de-frango-continente-7068833.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw6786e05e/images/col/706/7068833-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 6.99,
+      "bulk_price": 4.75,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "0ec3719b79d84f72db85c4dafca37202de30ecd3761b5ca485a50c93c72fbdb0",
+    "name": "Queijo Flamengo sem Lactose Fatiado",
+    "normalized_name": "queijo-flamengo-sem-lactose-fatiado",
+    "brand": "Limiano",
+    "normalized_brand": "limiano",
+    "price": {
+      "url": "https://www.continente.pt/produto/queijo-flamengo-sem-lactose-fatiado-limiano-4863936.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw53868b13/images/col/486/4863936-hero.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 4.99,
+      "bulk_price": 12.48,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "379dc2169591eba31f6c5ecac5a6dbe9f6140c528620d3c12e9dbbe181152229",
+    "name": "Batata Vermelha",
+    "normalized_name": "batata-vermelha",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/batata-vermelha-continente-5454736.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw70d04ce2/images/col/545/5454736-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 3.59,
+      "bulk_price": 1.2,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "92bda9ea36c02147a12bb4b0902b8ca6921637f98c74c4de2a282ab632807535",
+    "name": "Pera Rocha DOP Oeste",
+    "normalized_name": "pera-rocha-dop-oeste",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/pera-rocha-dop-oeste-continente-7102076.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwe16d9b17/images/col/710/7102076-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 2.49,
+      "bulk_price": 0.42,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "f195bea7b3e24d9cf05b90316b666edc29bda34fc9b2914c5c448776c5ffda21",
+    "name": "Preparado de Carne Picada de Bovino",
+    "normalized_name": "preparado-de-carne-picada-de-bovino",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/preparado-de-carne-picada-de-bovino-continente-7430620.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw4583d027/images/col/743/7430620-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 11.49,
+      "bulk_price": 12.77,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "cce25576ccdf16e49480949ee7a00c9390ac5416601da038d63d9592ec09d985",
+    "name": "Mirtilo",
+    "normalized_name": "mirtilo",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/mirtilo-7751334.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw2843a5be/images/col/775/7751334-cima-embalagem-granel.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 7.99,
+      "bulk_price": 15.98,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "c9c319900d892c6b5a03588e0a309770328a61fbc8d6528de522edf3da9e326c",
+    "name": "Queijo Flamengo sem Lactose Fatiado",
+    "normalized_name": "queijo-flamengo-sem-lactose-fatiado",
+    "brand": "Terra Nostra",
+    "normalized_brand": "terra-nostra",
+    "price": {
+      "url": "https://www.continente.pt/produto/queijo-flamengo-sem-lactose-fatiado-terra-nostra-5125010.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwa4f0e81b/images/col/512/5125010-topshot.png?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 4.19,
+      "bulk_price": 10.47,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "69ec204601e46060e88b4196ccc7f7dbf02e288ca81f07d9b87036656f553ba9",
+    "name": "Batata Doce",
+    "normalized_name": "batata-doce",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/batata-doce-continente-2076703.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw898623a2/images/col/207/2076703-cima.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 2.49,
+      "bulk_price": 1.25,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "4039dcbe73a394b8ce68a3fc6da50fb90582aee97ce4fc2fac31053f884f47ec",
+    "name": "Cenoura",
+    "normalized_name": "cenoura",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/cenoura-continente-5063155.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwa19f7756/images/col/506/5063155-esquerdo-fatiado.png?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 0.99,
+      "bulk_price": 0.15,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "47af1ad39541e1ea6e3b4e1b184dbaacfee7e48987b4c151db3aa18d5df9d55e",
+    "name": "Kiwi",
+    "normalized_name": "kiwi",
+    "brand": "Zespri",
+    "normalized_brand": "zespri",
+    "price": {
+      "url": "https://www.continente.pt/produto/kiwi-zespri-7174691.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwb26831f2/images/col/717/7174691-cima-granel-fatiado.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 4.49,
+      "bulk_price": 0.54,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "e9e59938ba9528247b7ce2eae060af5752ba85557314a11d91855f5c2915967e",
+    "name": "Queijo Mini Light",
+    "normalized_name": "queijo-mini-light",
+    "brand": "Babybel",
+    "normalized_brand": "babybel",
+    "price": {
+      "url": "https://www.continente.pt/produto/queijo-mini-light-babybel-6579062.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwbd99a82d/images/col/657/6579062-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 4.69,
+      "bulk_price": 19.54,
+      "price_unit": "kg",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "2cafbe18e0e7b396b7bb40d8dcd8f6de0e752b739d20ced4ebc03e92d2942f19",
+    "name": "Posta de Salmão Fresca",
+    "normalized_name": "posta-de-salmo-fresca",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/posta-de-salmao-fresca-4405983.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw84bddfed/images/col/440/4405983-amb-tabua.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 11.99,
+      "bulk_price": 3.0,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "796d66433bbb6af34eec6c902f59ff237f286d21445d26276cd963742b25fc22",
+    "name": "Maçã Pink Lady",
+    "normalized_name": "ma-pink-lady",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/maca-pink-lady-continente-7303767.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dw2a956267/images/col/730/7303767-frente.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 2.85,
+      "bulk_price": 0.63,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  },
+  {
+    "uid": "fe4fe945c6838f0b065b03616171da54051aa17e0d51b121c879ea58cb1cac5c",
+    "name": "Cebola",
+    "normalized_name": "cebola",
+    "brand": "Continente",
+    "normalized_brand": "continente",
+    "price": {
+      "url": "https://www.continente.pt/produto/cebola-continente-4891584.html",
+      "image_url": "https://www.continente.pt/dw/image/v2/BDVS_PRD/on/demandware.static/-/Sites-col-master-catalog/default/dwb0fe2eb2/images/col/489/4891584-amb.jpg?sw=280&sh=280",
+      "country_code": "pt",
+      "store_name": "Continente",
+      "unit_price": 1.49,
+      "bulk_price": 0.39,
+      "price_unit": "un",
+      "last_fetch_iso": "2025-11-09H20:30",
+      "last_fetch_epoch": 1762720211
+    }
+  }
+]
