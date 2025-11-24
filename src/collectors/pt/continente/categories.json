@@ -1,12 +1,12 @@
 [
-    "frescos/?start=0&srule=FRESH-Generico&pmin=0.01",
-    "laticinios-e-ovos/?start=0&srule=FOOD-Laticinios&pmin=0.01",
-    "congelados/?start=0&srule=FOOD-Congelados&pmin=0.01",
-    "mercearia/?start=0&srule=FOOD-Mercearia&pmin=0.01",
-    "bebidas-e-garrafeira/?start=0&srule=FOOD-Bebidas&pmin=0.01",
-    "bio-e-saudavel/?start=0&srule=FOOD-BIO&pmin=0.01",
-    "limpeza/?start=0&srule=FMCG-LL&pmin=0.01",
-    "beleza-e-higiene/?start=0&srule=FOOD-HB-Perfumes&pmin=0.01",
-    "bebe/ver-todos/?start=0&srule=Trading-categorias-destaques&pmin=0.01",
-    "animais/?start=0&srule=Sortig%20Rule%20Animais&pmin=0.01"
+    "frescos/?start=0&srule=price-low-to-high&pmin=0.01",
+    "laticinios-e-ovos/?start=0&srule=price-low-to-high&pmin=0.01",
+    "congelados/?start=0&srule=price-low-to-high&pmin=0.01",
+    "mercearia/?start=0&srule=price-low-to-high&pmin=0.01",
+    "bebidas-e-garrafeira/?start=0&srule=price-low-to-high&pmin=0.01",
+    "bio-e-saudavel/?start=0&srule=price-low-to-high&pmin=0.01",
+    "limpeza/?start=0&srule=price-low-to-high&pmin=0.01",
+    "beleza-e-higiene/?start=0&srule=price-low-to-high&pmin=0.01",
+    "bebe/ver-todos/?start=0&srule=price-low-to-high&pmin=0.01",
+    "animais/?start=0&srule=price-low-to-high&pmin=0.01"
 ]

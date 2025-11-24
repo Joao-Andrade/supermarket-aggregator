@@ -1,4 +1,7 @@
 .vs
+.DS_Store
 __pycache__/
 *.py[cod]
 layer/
+example_files/
+src_backup/
