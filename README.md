@@ -12,3 +12,33 @@ I am creating a supermarket aggregator that has the following steps:
 This needs to be free tier only. Compare solutions between azure, google cloud and aws. It could be multi cloud, if stays on free tier.
 
 Some considerations. stepp one takes about five minutes.
+
+# Supermarket Aggregator Architecture
+
+## Overview
+Collect product prices from multiple supermarkets, provide API for apps, support subscriptions, and store price history.
+
+## AWS Services
+| Step | Functionality | AWS Service | Notes |
+|------|---------------|------------|-------|
+| 1 | Scraper collects product data | Lambda + EventBridge | Important products daily, less important every 2-3 days |
+| 2 | Queue data | SQS | Decouples scraper & DB |
+| 3 | Process queue & update DB | Lambda + DynamoDB | Two tables: Products & Prices |
+| 4 | Provide API | API Gateway + Lambda | Frontend, mobile, developer API tier |
+| 5 | Frontend | S3 + CloudFront | Static frontend |
+| 6 | Subscription & payments | Stripe | Lite/Premium/Dev subscriptions |
+| 7 | Logging | CloudWatch | Monitor Lambda executions, API, DB |
+
+## Data Model
+**Products Table:** product_id (PK), name, category, brand  
+**Prices Table:** price_id (PK), product_id (FK), supermarket_id, price, timestamp  
+
+## Subscription Tiers
+| Tier | Features |
+|------|---------|
+| Free | Basic search, limited API, ads |
+| Lite | Fewer ads, favorites, price history |
+| Premium | Full features, price alerts |
+| Dev | 1 API key, developer access |
+
+## Architecture Diagram
