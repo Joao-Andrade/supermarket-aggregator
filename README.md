@@ -41,4 +41,18 @@ Collect product prices from multiple supermarkets, provide API for apps, support
 | Premium | Full features, price alerts |
 | Dev | 1 API key, developer access |
 
-## Architecture Diagram
+
+## Implementation Steps
+1. Scraper Lambda → EventBridge → SQS  
+2. Queue Processing Lambda → Update DynamoDB  
+3. DynamoDB Tables → Products & Prices  
+4. API Gateway + Lambda → Endpoints: /search, /price-history, /favorites, /subscriptions  
+5. Frontend → React/Vue SPA on S3 + CloudFront  
+6. Stripe → Handle subscriptions and VAT  
+7. CloudWatch → Logs & metrics  
+
+## Scaling Notes
+- DynamoDB serverless → auto-scaling  
+- SQS decouples scraping & DB updates  
+- Lambda + API Gateway → handle bursts  
+- Estimated costs: AWS €55/month + domain €1.33/month
