@@ -1,4 +1,4 @@
-from collectors.pt.continente.collector import ContinenteCollector
+from collectors.europe.pt.continente.collector import ContinenteCollector
 
 def test_continente_collector():
     collector = ContinenteCollector()

@@ -1,17 +1,31 @@
 # supermarket-aggregator
+
 Developing a supermarket aggregator to check and compare prices of different products from different supermarkets.
 
 
 I am creating a supermarket aggregator that has the following steps:
 
 1 - collects data from website and sends data to queu.
-2 - another process reads qeue and updates db. Needs to be realtional.
+2 - another process reads qeue and updates db.
 3 - There is an api that reads db and returns data.
 4 - Front end that makes requests to api.
 
-This needs to be free tier only. Compare solutions between azure, google cloud and aws. It could be multi cloud, if stays on free tier.
+This needs to be free tier only as much as possible and on AWS and also thorugh terraform code.
 
-Some considerations. stepp one takes about five minutes.
+Some considerations.
+- step one takes about five minutes.
+- It gathers products from five supermakets.
+- Each supermarket has fifty thousand products.
+- Right now it is only Portugal supermarkets but needs to be scalable to other countries.
+
+Can you help with some questions?
+ - Let me know if this is a good architecture and if it is scalable enough?
+ - Can you help me with the implementation? What are the best practices, which tools to use and how can I implement it?
+ - Can you pre define some price tiers, including a free tier? For example, a free, lite, premium and dev tier.
+ - What should be included with each tier?
+ - Can you help me with how should I integrate ads?
+ - Can you help me with how should I integrate subscriptions and payments?
+
 
 # Supermarket Aggregator Architecture
 

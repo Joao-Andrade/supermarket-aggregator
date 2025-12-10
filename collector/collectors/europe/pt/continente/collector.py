@@ -22,14 +22,14 @@ class ContinenteCollector(BaseCollector):
         categories_file = self.get_categories()
         page = self.get_page(f"{self.base_url}/{categories_file[category]}&start=0&sz={for_range}")
         page_products = self.parse_page(page)
-        self.output_products(page_products, "file", f"{self.collector_path}/../../../../example_files/continente0.json")
+        self.output_products(page_products, "file", f"{self.collector_path}/../../../../../example_files/continente0.json")
         products.extend(page_products)
         n_products = self.get_total_products(page)
         for i in range(for_range, n_products+for_range, for_range):
             page = self.get_page(f"{self.base_url}/{categories_file[category]}&start={i}&sz={for_range}")
             print(f"{self.base_url}/{categories_file[category]}&start={i}&sz={for_range}")
             page_products = self.parse_page(page)
-            self.output_products(page_products, "file", f"{self.collector_path}/../../../../example_files/continente{i}.json")
+            self.output_products(page_products, "file", f"{self.collector_path}/../../../../../example_files/continente{i}.json")
             products.extend(page_products)
         return products
             
